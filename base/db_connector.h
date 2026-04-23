@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/22.
-//
 
 #ifndef DATABASE_DB_CONNECTOR_H
 #define DATABASE_DB_CONNECTOR_H

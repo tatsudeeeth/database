@@ -1,6 +1,3 @@
-//
-// Created by gijutsu12 on 24/05/08.
-//
 
 #ifndef DATABASE_WRITE_LOG_H
 #define DATABASE_WRITE_LOG_H

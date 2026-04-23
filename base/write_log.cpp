@@ -1,7 +1,3 @@
-//
-// Created by gijutsu12 on 24/05/08.
-//
-
 #include "write_log.h"
 #include <fstream>
 

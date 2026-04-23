@@ -1,6 +1,3 @@
-//
-// Created by gijutsu12 on 24/05/29.
-//
 
 #include "id_mgr.h"
 #include <unordered_map>

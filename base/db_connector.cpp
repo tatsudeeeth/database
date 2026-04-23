@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/22.
-//
 
 #include "db_connector.h"
 

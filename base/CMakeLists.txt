@@ -1,8 +1,6 @@
 add_library(db_connector
 		STATIC
-		#user.cpp
 		write_log.cpp
-		#cursor.cpp
 		id_mgr.cpp
         db_connector.cpp
 		constants.cpp

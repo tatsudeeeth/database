@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #define SSR_CONNECTOR_BODY
 

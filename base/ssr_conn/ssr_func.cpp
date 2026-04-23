@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #include "ssr_func.h"
 #include "id_mgr.h"

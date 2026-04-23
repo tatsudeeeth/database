@@ -1,6 +1,4 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
+
 
 #include "mdb_func.h"
 #include "write_log.h"

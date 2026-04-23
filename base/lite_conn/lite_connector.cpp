@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #define LITE_CONNECTOR_BODY
 #include "lite_connector.h"

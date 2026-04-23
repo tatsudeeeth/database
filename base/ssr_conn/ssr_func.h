@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #ifndef DATABASE_SSR_FUNC_H
 #define DATABASE_SSR_FUNC_H

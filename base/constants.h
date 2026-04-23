@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #ifndef DATABASE_CONSTANTS_H
 #define DATABASE_CONSTANTS_H

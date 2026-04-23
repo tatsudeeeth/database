@@ -1,6 +1,4 @@
 add_library(ssr_connector
-        #ssr_user.cpp
-        #ssr_cursor.cpp
         ssr_connector.cpp
         ssr_func.cpp
 )

@@ -1,6 +1,3 @@
-//
-// Created by gijutsu12 on 24/05/29.
-//
 
 #ifndef DATABASE_ID_MGR_H
 #define DATABASE_ID_MGR_H

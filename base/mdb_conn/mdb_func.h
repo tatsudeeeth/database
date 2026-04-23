@@ -1,6 +1,4 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
+
 
 #ifndef DATABASE_MDB_FUNC_H
 #define DATABASE_MDB_FUNC_H

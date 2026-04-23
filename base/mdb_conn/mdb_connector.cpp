@@ -1,6 +1,3 @@
-//
-// Created by TatsuyaSano on 2025/11/23.
-//
 
 #define MDB_CONNECTOR_BODY
 #include "mdb_connector.h"
