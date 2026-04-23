@@ -1,0 +1,2 @@
+#include <string>
+std::wstring SERVER_DIRECTORY = L"//yamadaad/‘SĞ‹¤—L/ŠÇ—•”/database/@CMAKE_BUILD_TYPE@";
