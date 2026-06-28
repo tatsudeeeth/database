@@ -1,0 +1,22 @@
+create table proto
+(
+    No           int identity primary key,
+    日付         date        default getdate(),
+    テキスト     nvarchar(500),
+    整数         int         default 0,
+    小数         float       default 0,
+    チェック     bit         default 0,
+    コンボ       nvarchar(50),
+    アップデート nvarchar(50) default NULL
+)
+
+create table choices
+(
+    No int identity primary key,
+    分類 nvarchar(50),
+    選択肢 nvarchar(100),
+    使用不可 bit default 0,
+    説明 nvarchar(50),
+    備考 nvarchar(50),
+    表示順 tinyint
+)

@@ -1,0 +1,25 @@
+
+create table proto
+(
+    No           int auto_increment
+        primary key,
+    日付         date  default curdate() null,
+    テキスト     varchar(500)            null,
+    整数         int   default 0         null,
+    小数         float default 0         null,
+    チェック     tinyint(1)      null,
+    コンボ       varchar(50)             null,
+    アップデート varchar(50)             null
+);
+
+
+create table choices
+(
+    No int auto_increment primary key,
+    分類 varchar(50),
+    選択肢 varchar(100),
+    使用不可 tinyint default 0,
+    説明 varchar(50),
+    備考 varchar(50),
+    表示順 tinyint
+)

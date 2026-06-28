@@ -1,0 +1,21 @@
+create table if not exists proto
+(
+    No integer primary key autoincrement ,
+    日付 text,
+    テキスト text,
+    整数 integer,
+    小数 real,
+    チェック integer,
+    コンボ text,
+    アップデート text
+);
+create table if not exists choices
+(
+    No integer primary key autoincrement ,
+    分類 text,
+    選択肢 text,
+    使用不可 int,
+    説明 text,
+    備考 text,
+    表示順 int
+)

@@ -1,0 +1,34 @@
+
+services:
+  mdb:
+    image: mariadb
+    volumes:
+      - ./docks/volume/mdb/data:/var/lib/mysql:Z
+
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: mdb_secret
+      MARIADB_USER: tester
+      MARIADB_PASSWORD: test_pass
+      MARIADB_DATABASE: test
+
+  ssr:
+    image: mcr.microsoft.com/mssql/server
+    volumes:
+      - ./docks/volume/ssr/data:/var/opt/mssql/data
+      - ./docks/volume/ssr/log:/var/opt/mssql/log
+      - ./docks/volume/ssr/secrets:/var/opt/mssql/secrets
+
+    restart: always
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: Y
+      MSSQL_SA_PASSWORD: ssr_secret1
+
+networks:
+  default:
+    name: test_net01
+    external: true
